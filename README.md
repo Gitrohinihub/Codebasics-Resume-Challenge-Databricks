@@ -141,12 +141,11 @@ This approach focuses purely on **content similarity**, independent of user beha
 - Designing scalable recommender systems
 - Implementing Lakehouse architecture
 - Handling large-scale data cleaning
-- designed content-based model
 - Building production-style data pipelines
 
 ---
 
 ## project Owner
 **Rohini Singh**
-Linkedin : [click here]()
-presentation : [click here]()
+Linkedin : [click here](https://www.linkedin.com/in/rohini-singh-)
+presentation : [click here](https://www.linkedin.com/posts/rohini-singh-_codebasicsresumechallenge-databricks-codebasics-activity-7423062901084635136-adJI?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAADk_WcEBndGed7gzDwaG8CNJocWgQnSTThQ&utm_campaign=copy_link)
