@@ -51,12 +51,14 @@ Both approaches are implemented, compared, and deployed using Databricks.
 | anime_id | Anime watched |
 | rating | User rating (-1 means watched but not rated) |
 
-![]()
+![](https://github.com/Gitrohinihub/Codebasics-Resume-Challenge-Databricks/blob/1c92a5c58dbd9d6c761c111bcc36ed8a82b6b6ae/dataset.png)
 ---
 
 ## Architecture: Databricks Lakehouse
 
 The project follows a **Bronze → Silver → Gold** architecture.
+
+![](https://github.com/Gitrohinihub/Codebasics-Resume-Challenge-Databricks/blob/1c92a5c58dbd9d6c761c111bcc36ed8a82b6b6ae/Catalog_schema_layers.png)
 
 ### Bronze Layer
 - Raw datasets uploaded as-is
