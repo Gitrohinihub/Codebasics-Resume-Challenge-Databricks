@@ -7,8 +7,7 @@ It demonstrates how real-world recommendation systems are designed using scalabl
 The system focuses on **four core tasks**:
 1. Clean the genre column (handle multiple genres per row)
 2. Build a Content-Based Recommendation System (using Genre and Type)
-3. Compare with a Collaborative Filtering approach (User Ratings)
-4. Recommend the top 5 anime for a given preference (e.g., *Naruto*)
+3. Recommend the top 5 anime for a given preference (e.g., *Naruto*)
 
 ---
 
@@ -18,7 +17,6 @@ Simple popularity-based recommendations fail to personalize suggestions.
 
 This project addresses that challenge by building:
 - A **Content-Based Recommender** (based on anime attributes)
-- A **Collaborative Filtering Recommender** (based on user ratings)
 
 Both approaches are implemented, compared, and deployed using Databricks.
 ---
@@ -117,27 +115,9 @@ This approach focuses purely on **content similarity**, independent of user beha
 
 ---
 
-## Task 3: Collaborative Filtering (User Ratings)
-
-### Approach
-- Implemented using **Python, Pandas, NumPy, and cosine similarity**
-- Recommendations based on users with similar rating patterns
-- Anime highly rated by similar users are recommended
-
-### Assumptions & Limitations
-- High ratings imply user preference
-- Can be noisy for users with sparse ratings
-- Relies fully on historical user behavior
-
-This model was implemented **outside PySpark** for better control and memory efficiency.
-
----
-
-## Task 4: Final Recommendations
+## Task 3: Final Recommendations
 - **Content-Based:**  
   Input an anime name → Get top 5 similar anime
-- **Collaborative Filtering:**  
-  Input a user ID → Get anime recommendations with anime name and average rating
 
 ---
 
@@ -153,10 +133,7 @@ This model was implemented **outside PySpark** for better control and memory eff
 - Databricks
 - Apache Spark (PySpark)
 - Delta Lake
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
+- ML Lib
 
 ---
 
@@ -164,7 +141,7 @@ This model was implemented **outside PySpark** for better control and memory eff
 - Designing scalable recommender systems
 - Implementing Lakehouse architecture
 - Handling large-scale data cleaning
-- Comparing content-based vs collaborative filtering
+- designed content-based model
 - Building production-style data pipelines
 
 ---
