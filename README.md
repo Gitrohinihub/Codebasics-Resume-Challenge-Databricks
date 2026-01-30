@@ -21,7 +21,6 @@ This project addresses that challenge by building:
 - A **Collaborative Filtering Recommender** (based on user ratings)
 
 Both approaches are implemented, compared, and deployed using Databricks.
-
 ---
 
 ## Datasets
@@ -52,6 +51,7 @@ Both approaches are implemented, compared, and deployed using Databricks.
 | anime_id | Anime watched |
 | rating | User rating (-1 means watched but not rated) |
 
+![]()
 ---
 
 ## Architecture: Databricks Lakehouse
@@ -88,6 +88,8 @@ Saved as a **Delta table** in the Silver layer.
 Saved as a **Delta table** in the Silver layer.
 
 ---
+
+### Gold Layer 
 
 ## Task 1: Clean the Genre Column
 - Split multi-valued genre strings into arrays
@@ -142,6 +144,7 @@ This model was implemented **outside PySpark** for better control and memory eff
 - Delta tables created successfully
 - Recommendation outputs generated without errors
 
+![]()
 ---
 
 ## Tools & Technologies
@@ -164,13 +167,7 @@ This model was implemented **outside PySpark** for better control and memory eff
 
 ---
 
-## Future Enhancements
-- Hybrid recommendation model
-- Model evaluation metrics (Precision@K, Recall@K)
-- Real-time recommendation API
-- User feedback loop
-
----
-
-## Author
+## project Owner
 **Rohini Singh**
+Linkedin : [click here]()
+presentation : [click here]()
