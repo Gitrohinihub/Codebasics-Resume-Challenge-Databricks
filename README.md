@@ -144,7 +144,7 @@ This model was implemented **outside PySpark** for better control and memory eff
 - Delta tables created successfully
 - Recommendation outputs generated without errors
 
-![]()
+![](https://github.com/Gitrohinihub/Codebasics-Resume-Challenge-Databricks/blob/1c92a5c58dbd9d6c761c111bcc36ed8a82b6b6ae/pipeline%20run.png)
 ---
 
 ## Tools & Technologies
